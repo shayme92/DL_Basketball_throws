@@ -81,7 +81,7 @@ I changed the position - (x,y) to polar coordinates where the axes origin is the
 
 $r = \sqrt{x^{2} + y^{2}}$
 
-$\phi = \operatorname{atan2}(y, x)$
+$\phi = \text{atan2}(y, x)$
 
 #### 2. Split to train-test:
 I used 70% of the data to train the modal and evaluated the prediction with throws from the test samples. (the remain 30%)
