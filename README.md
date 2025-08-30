@@ -79,10 +79,9 @@ After some time I gathered the Data and saved the throws which got into the bask
 #### 1. Create Xs:
 I changed the position - (x,y) to polar coordinates where the axes origin is the center of the hoop hence:
 
-![\Large ](https://latex.codecogs.com/svg.latex?r=\sqrt%7B{x^{2}+y^{2}}%7D)
+$r = \sqrt{x^{2} + y^{2}}$
 
-
-![\Large ](https://latex.codecogs.com/svg.latex?\phi=\{atan2}(y,x))
+$\phi = \operatorname{atan2}(y, x)$
 
 #### 2. Split to train-test:
 I used 70% of the data to train the modal and evaluated the prediction with throws from the test samples. (the remain 30%)
