@@ -14,19 +14,19 @@ I will be using Pandas, Numpy and Tensorflow for the data analysis. For the GUI 
 First let's dive into the physics of projectile motion.
 
 for a given initial launch angle,
-![\Large ](https://latex.codecogs.com/svg.latex?\theta)
+$\theta$  
 the horizontal and vertical components of the velocity are:
 
+$v_{0x} = v_{0}\cos(\theta)$  
 
-![\Large ](https://latex.codecogs.com/svg.latex?v_{0x}%3Dv_{0}%7B\cos(\theta)%7D)
+$v_{0y} = v_{0}\sin(\theta)$  
 
-![\Large ](https://latex.codecogs.com/svg.latex?v_{0y}%3Dv_{0}%7B\sin(\theta)%7D)
+and the components of velocity at any time $t$ are:
 
-and the the components of velocity at any time t are:
+$v_{tx} = v_{0}\cos(\theta)$  
 
-![\Large ](https://latex.codecogs.com/svg.latex?v_{tx}%3Dv_{0}%7B\cos(\theta)%7D)
+$v_{ty} = v_{0}\sin(\theta) - gt$  
 
-![\Large ](https://latex.codecogs.com/svg.latex?v_{ty}%3Dv_{0}%7B\sin(\theta)-gt%7D)
 
 For a given change in time dt the new poistion of the ball will be:
 
